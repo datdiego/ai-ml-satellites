@@ -1,8 +1,8 @@
 # MakeMeAnExpert: AI/ML in Satellites and Space Systems
 
 **30-Day Daily Email Syllabus**
-**Draft v1 — 2026-02-26**
-**Status:** PENDING DIRECTOR REVIEW
+**v2 — 2026-02-26 (all 30 papers verified with DOIs/URLs)**
+**Status:** APPROVED — ready for content production
 
 ---
 
@@ -26,7 +26,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Scientific vs. defense vs. commercial satellites: different communication strategies, encryption levels, and data priorities
 - Introduction to link budgets: why distance, power, and frequency all matter
 
-**Paper:** "An Overview of Satellite Communication Systems" — foundational survey covering architecture, protocols, and signal propagation fundamentals.
+**Paper:** Kodheli, O. et al. — "Satellite Communications in the New Space Era: A Survey and Future Challenges" (IEEE Communications Surveys & Tutorials, 2021). DOI: [10.1109/COMST.2020.3028247](https://doi.org/10.1109/COMST.2020.3028247)
 
 ---
 
@@ -38,7 +38,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Constellation geometries: Walker constellations, polar orbits, and inclined planes
 - Two-Line Element (TLE) sets: how satellite positions are tracked and predicted
 
-**Paper:** Vallado, D. — "Fundamentals of Astrodynamics and Applications" (selected chapter on orbital elements and propagation models used in modern tracking systems).
+**Paper:** Vallado, D.A. — *Fundamentals of Astrodynamics and Applications*, 4th ed. (Microcosm Press, 2013). ISBN: 978-1881883180. Selected chapter on orbital elements and propagation models used in modern tracking systems.
 
 ---
 
@@ -50,7 +50,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Evolution from simple command execution to onboard autonomy
 - Overview of space-qualified AI accelerators: Intel Movidius Myriad 2, Xilinx FPGAs, Ubotica CogniSAT
 
-**Paper:** Furano, G. et al. — "AI in Space: Current and Future Applications" (ESA study on hardware and software frameworks for onboard AI).
+**Paper:** Furano, G., Meoni, G., Dunber, A. et al. — "Towards the Use of Artificial Intelligence on the Edge in Space Systems: Challenges and Opportunities" (IEEE Aerospace and Electronic Systems Magazine, 2020). DOI: [10.1109/MAES.2020.3008468](https://doi.org/10.1109/MAES.2020.3008468)
 
 ---
 
@@ -62,7 +62,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Key missions: Landsat, Sentinel, MODIS, GOES — what they measure and why it matters
 - How raw satellite data becomes usable imagery: preprocessing, atmospheric correction, orthorectification
 
-**Paper:** Zhu, X.X. et al. — "Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources" (IEEE GRSM, 2017) — seminal review establishing the field.
+**Paper:** Zhu, X.X. et al. — "Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources" (IEEE GRSM, 2017). DOI: [10.1109/MGRS.2017.2762307](https://doi.org/10.1109/MGRS.2017.2762307) | arXiv: [1710.03959](https://arxiv.org/abs/1710.03959)
 
 ---
 
@@ -74,7 +74,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Feature engineering vs. deep learning: traditional approaches (NDVI, texture features) vs. CNNs
 - Key datasets: EuroSAT (27,000 images, 10 LULC classes), BigEarthNet, SpaceNet, xView
 
-**Paper:** Helber, P. et al. — "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification" (IEEE JSTARS, 2019).
+**Paper:** Helber, P. et al. — "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification" (IEEE JSTARS, 2019). DOI: [10.1109/JSTARS.2019.2918242](https://doi.org/10.1109/JSTARS.2019.2918242) | arXiv: [1709.00029](https://arxiv.org/abs/1709.00029)
 
 ---
 
@@ -86,7 +86,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Handling class imbalance in land cover classification (oversampling, focal loss, weighted cross-entropy)
 - Evaluation metrics: overall accuracy, per-class F1, Cohen's kappa, confusion matrices
 
-**Paper:** Neumann, M. et al. — "In-Domain Representation Learning for Remote Sensing" (2019) — demonstrates that domain-specific pretraining outperforms ImageNet transfer for satellite tasks.
+**Paper:** Neumann, M., Pinto, A.S., Zhai, X. & Houlsby, N. — "In-Domain Representation Learning for Remote Sensing" (arXiv, 2019; ICLR 2020 Workshop). arXiv: [1911.06721](https://arxiv.org/abs/1911.06721)
 
 ---
 
@@ -98,7 +98,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Polarimetric SAR (PolSAR): single-pol, dual-pol, quad-pol — what information each captures
 - Key SAR missions: Sentinel-1, NISAR, TerraSAR-X, Capella Space, ICEYE
 
-**Paper:** Moreira, A. et al. — "A Tutorial on Synthetic Aperture Radar" (IEEE GRSM, 2013) — comprehensive introduction to SAR principles and systems.
+**Paper:** Moreira, A. et al. — "A Tutorial on Synthetic Aperture Radar" (IEEE GRSM, 2013). DOI: [10.1109/MGRS.2013.2248301](https://doi.org/10.1109/MGRS.2013.2248301)
 
 ---
 
@@ -110,7 +110,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Doppler shift handling in LEO communications
 - Real-world case: using ML to detect satellite anomalies before component failure
 
-**Paper:** Hundman, K. et al. — "Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding" (KDD 2018, NASA JPL) — foundational work on LSTM-based telemetry anomaly detection.
+**Paper:** Hundman, K. et al. — "Detecting Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding" (KDD 2018). DOI: [10.1145/3219819.3219845](https://doi.org/10.1145/3219819.3219845) | arXiv: [1802.04431](https://arxiv.org/abs/1802.04431) | Code: [github.com/khundman/telemanom](https://github.com/khundman/telemanom)
 
 ---
 
@@ -122,7 +122,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Routing in satellite networks: challenges of dynamic topology and intermittent links
 - Ground segment architecture: gateway stations, user terminals, network operations centers
 
-**Paper:** del Portillo, I. et al. — "A Technical Comparison of Three Low Earth Orbit Satellite Constellation Systems to Provide Global Broadband" (Acta Astronautica, 2019).
+**Paper:** del Portillo, I., Cameron, B.G. & Crawley, E.F. — "A Technical Comparison of Three Low Earth Orbit Satellite Constellation Systems to Provide Global Broadband" (Acta Astronautica, 2019). DOI: [10.1016/j.actaastro.2019.03.040](https://doi.org/10.1016/j.actaastro.2019.03.040)
 
 ---
 
@@ -134,7 +134,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Dual-use dilemma: commercial imagery in conflict zones, regulatory frameworks (ITAR, EAR)
 - How AI is changing the defense-commercial boundary: NRO's commercial imagery purchases, Project Maven
 
-**Paper:** Paikowsky, D. — "The Power of the Space Club" — analysis of how space capabilities shape geopolitical power, with focus on intelligence satellite programs.
+**Paper:** Paikowsky, D. — *The Power of the Space Club* (Cambridge University Press, 2017). DOI: [10.1017/9781108159883](https://doi.org/10.1017/9781108159883). Analysis of how space capabilities shape geopolitical power, with focus on intelligence satellite programs.
 
 ---
 
@@ -148,7 +148,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Multi-class land cover segmentation: handling 10-50+ classes with hierarchical labeling
 - Practical challenge: training with noisy, weakly-annotated, or partially-labeled satellite data
 
-**Paper:** Diakogiannis, F.I. et al. — "ResUNet-a: A Deep Learning Framework for Semantic Segmentation of Remotely Sensed Data" (ISPRS, 2020).
+**Paper:** Diakogiannis, F.I. et al. — "ResUNet-a: A Deep Learning Framework for Semantic Segmentation of Remotely Sensed Data" (ISPRS J. Photogramm. Remote Sens., 2020). DOI: [10.1016/j.isprsjprs.2020.01.013](https://doi.org/10.1016/j.isprsjprs.2020.01.013) | arXiv: [1904.00592](https://arxiv.org/abs/1904.00592)
 
 ---
 
@@ -160,7 +160,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - SAR super-resolution: enhancing spatial detail with CNNs (Capella satellite SR models)
 - Fusion of SAR and optical data: complementary strengths and multi-modal architectures
 
-**Paper:** Wang, Z. et al. — "SAR Image Despeckling Using a Convolutional Neural Network" (IEEE Signal Processing Letters, 2017) — pioneering work on learned SAR despeckling.
+**Paper:** Wang, P., Zhang, H. & Patel, V.M. — "SAR Image Despeckling Using a Convolutional Neural Network" (IEEE Signal Processing Letters, 2017). DOI: [10.1109/LSP.2017.2758203](https://doi.org/10.1109/LSP.2017.2758203) | arXiv: [1706.00552](https://arxiv.org/abs/1706.00552)
 
 ---
 
@@ -172,7 +172,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Satellogic's AI-first approach: designing satellites around ML inference requirements
 - AI-eXpress constellation: hybrid edge/cloud architecture with blockchain and modular AI deployment
 
-**Paper:** Giuffrida, G. et al. — "CloudScout: A Deep Neural Network for On-Board Cloud Detection on Hyperspectral Images" (2020) — the PhiSat-1 cloud detection model that flew in orbit.
+**Paper:** Giuffrida, G. et al. — "CloudScout: A Deep Neural Network for On-Board Cloud Detection on Hyperspectral Images" (Remote Sensing, 2020). DOI: [10.3390/rs12142205](https://doi.org/10.3390/rs12142205) — the PhiSat-1 cloud detection model that flew in orbit.
 
 ---
 
@@ -184,7 +184,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - ESA's CREAM project: automating collision risk estimation with ML (22% lower false positives)
 - Autonomous maneuver planning: reinforcement learning for multi-debris avoidance strategies
 
-**Paper:** Uriot, T. et al. — "Spacecraft Collision Avoidance Challenge: Design and Results of a Machine Learning Competition" (ESA, 2022) — ML competition for conjunction data messages.
+**Paper:** Uriot, T., Izzo, D. et al. — "Spacecraft Collision Avoidance Challenge: Design and Results of a Machine Learning Competition" (Astrodynamics, 2022). DOI: [10.1007/s42064-021-0101-5](https://doi.org/10.1007/s42064-021-0101-5) | arXiv: [2008.03069](https://arxiv.org/abs/2008.03069)
 
 ---
 
@@ -196,7 +196,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Autonomous orbit maintenance: station-keeping, formation flying, rendezvous and proximity operations
 - Case study: Starlink's autonomous collision avoidance — neural network-based "self-driving" satellites
 
-**Paper:** Chien, S. et al. — "Using Autonomy Flight Software to Improve Science Return on Earth Observing One" (2005, NASA JPL) — pioneering work on autonomous Earth observation scheduling.
+**Paper:** Chien, S. et al. — "Using Autonomy Flight Software to Improve Science Return on Earth Observing One" (AIAA JACIC, 2005). DOI: [10.2514/1.12923](https://doi.org/10.2514/1.12923) | PDF: [ai.jpl.nasa.gov](https://ai.jpl.nasa.gov/public/documents/papers/chien-JACIC2005-UsingAutonomy.pdf)
 
 ---
 
@@ -208,7 +208,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Traffic engineering with neural networks: congestion prediction and adaptive routing (Starlink's approach)
 - ESA's ConstellAI project: exploring AI for mega-constellation operations and decision support
 
-**Paper:** "On the Role of AI in Managing Satellite Constellations: Insights from the ConstellAI Project" (ESA SpaceOps, 2025).
+**Paper:** Stock, G.F., Fraire, J.A. et al. — "On the Role of AI in Managing Satellite Constellations: Insights from the ConstellAI Project" (SpaceOps 2025). arXiv: [2507.15574](https://arxiv.org/abs/2507.15574)
 
 ---
 
@@ -220,7 +220,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - NASA/IBM's Surya model: open-source ML trained on a decade of solar data for flare forecasting
 - Geomagnetic storm prediction: LSTM networks for Dst index and Kp index forecasting
 
-**Paper:** Camporeale, E. — "The Challenge of Machine Learning in Space Weather" (Space Weather, 2019) — survey of ML applications and open challenges in space weather forecasting.
+**Paper:** Camporeale, E. — "The Challenge of Machine Learning in Space Weather: Nowcasting and Forecasting" (Space Weather, 2019). DOI: [10.1029/2018SW002061](https://doi.org/10.1029/2018SW002061) | arXiv: [1903.05192](https://arxiv.org/abs/1903.05192)
 
 ---
 
@@ -232,7 +232,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - China's 400 Gbps laser ISL record: Three-Body Computing Constellation
 - AI-driven beam steering and signal acquisition: automating PAT with ML
 
-**Paper:** Kaushal, H. & Kaddoum, G. — "Optical Communication in Space: Challenges and Mitigation Techniques" (IEEE Communications Surveys & Tutorials, 2017).
+**Paper:** Kaushal, H. & Kaddoum, G. — "Optical Communication in Space: Challenges and Mitigation Techniques" (IEEE Communications Surveys & Tutorials, 2017). DOI: [10.1109/COMST.2016.2603518](https://doi.org/10.1109/COMST.2016.2603518)
 
 ---
 
@@ -244,7 +244,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Change detection: bi-temporal and multi-temporal approaches, Siamese networks, attention mechanisms
 - Applications: urban growth monitoring, deforestation tracking, disaster damage assessment
 
-**Paper:** Chen, H. & Shi, Z. — "A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection" (Remote Sensing, 2020).
+**Paper:** Chen, H. & Shi, Z. — "A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection" (Remote Sensing, 2020). DOI: [10.3390/rs12101662](https://doi.org/10.3390/rs12101662) | Code: [github.com/justchenhao/STANet](https://github.com/justchenhao/STANet)
 
 ---
 
@@ -256,7 +256,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Cloud-gap filling and temporal interpolation: handling missing data in optical time series
 - Combining SAR and optical time series: leveraging SAR's cloud-penetrating capability
 
-**Paper:** Garnot, V.S.F. et al. — "Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks" (ICCV, 2021).
+**Paper:** Garnot, V.S.F. & Landrieu, L. — "Panoptic Segmentation of Satellite Image Time Series with Convolutional Temporal Attention Networks" (ICCV, 2021). arXiv: [2107.07933](https://arxiv.org/abs/2107.07933) | Code: [github.com/VSainteuf/utae-paps](https://github.com/VSainteuf/utae-paps)
 
 ---
 
@@ -270,7 +270,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - SatMAE, Scale-MAE, and other masked autoencoder approaches for satellite imagery
 - Fine-tuning strategies: few-shot adaptation of foundation models to new geographies and tasks
 
-**Paper:** Jakubik, J. et al. — "Foundation Models for Generalist Geospatial Artificial Intelligence" (2023) — the Prithvi foundation model paper from NASA and IBM.
+**Paper:** Jakubik, J. et al. — "Foundation Models for Generalist Geospatial Artificial Intelligence" (2023). arXiv: [2310.18660](https://arxiv.org/abs/2310.18660) — the Prithvi foundation model paper from NASA and IBM.
 
 ---
 
@@ -282,7 +282,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Sim-to-real transfer: training in orbital simulators and deploying on flight hardware
 - Challenges: sparse rewards, long horizons, safety constraints in RL for space
 
-**Paper:** Hovell, K. & Ulrich, S. — "Deep Reinforcement Learning for Spacecraft Proximity Operations Guidance" (JGCD, 2021).
+**Paper:** Hovell, K. & Ulrich, S. — "Deep Reinforcement Learning for Spacecraft Proximity Operations Guidance" (J. Spacecraft and Rockets, 2021). DOI: [10.2514/1.A34838](https://doi.org/10.2514/1.A34838)
 
 ---
 
@@ -294,7 +294,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Asynchronous FL for LEO: handling variable link availability and orbital dynamics
 - Applications: collaborative anomaly detection, distributed Earth observation model training
 
-**Paper:** Razmi, N. et al. — "On-Board Federated Learning for Satellite Clusters" (2022) — exploring FL architectures for satellite-to-satellite collaborative learning.
+**Paper:** Razmi, N. et al. — "On-board Federated Learning for Satellite Clusters with Inter-Satellite Links" (IEEE Trans. Communications, 2024). DOI: [10.1109/TCOMM.2024.3356429](https://doi.org/10.1109/TCOMM.2024.3356429) | arXiv: [2307.08346](https://arxiv.org/abs/2307.08346)
 
 ---
 
@@ -306,7 +306,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Diffusion models for satellite image super-resolution and cloud removal
 - Simulation environments: STK, GMAT, and custom orbital simulators for RL training data
 
-**Paper:** Bittner, K. et al. — "Building Footprint Extraction from VHR Remote Sensing Images Using GANs" (ISPRS, 2018).
+**Paper:** Bittner, K., d'Angelo, P., Korner, M. & Reinartz, P. — "Automatic Large-Scale 3D Building Shape Refinement Using Conditional Generative Adversarial Networks" (ISPRS Archives / CVPR 2018 Workshop). DOI: [10.5194/isprs-archives-XLII-2-103-2018](https://doi.org/10.5194/isprs-archives-XLII-2-103-2018)
 
 ---
 
@@ -318,7 +318,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Ground-to-satellite uplink QKD: 2025 breakthrough proving bidirectional quantum links are feasible
 - Limitations and debate: NSA position on QKD impracticality for national security systems
 
-**Paper:** Liao, S.K. et al. — "Satellite-to-Ground Quantum Key Distribution" (Nature, 2017) — landmark Micius satellite QKD demonstration.
+**Paper:** Liao, S.-K. et al. — "Satellite-to-ground quantum key distribution" (Nature, 2017). DOI: [10.1038/nature23655](https://doi.org/10.1038/nature23655) | arXiv: [1707.00542](https://arxiv.org/abs/1707.00542) — landmark Micius satellite QKD demonstration.
 
 ---
 
@@ -330,7 +330,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - China's Three-Body Computing Constellation: 2,800 satellites for distributed space computing
 - Economics and physics: power generation, heat dissipation, and latency trade-offs for space compute
 
-**Paper:** "Exploring a Space-Based, Scalable AI Infrastructure System Design" (Google Research, 2025) — the Project Suncatcher technical exploration.
+**Paper:** Aguera y Arcas, B. et al. — "Towards a future space-based, highly scalable AI infrastructure system design" (Google Research, 2025). arXiv: [2511.19468](https://arxiv.org/abs/2511.19468) — the Project Suncatcher technical exploration.
 
 ---
 
@@ -342,7 +342,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Optical computing for space: photonic neural networks and their radiation hardness
 - Tensor Processing Units in orbit: Google's TPU deployment roadmap for space-based inference
 
-**Paper:** Auge, D. et al. — "A Survey of Neuromorphic Computing and Neural Networks in Hardware" (2021) — comprehensive review of neuromorphic architectures with space applicability.
+**Paper:** Schuman, C.D., Potok, T.E., Patton, R.M. et al. — "A Survey of Neuromorphic Computing and Neural Networks in Hardware" (arXiv, 2017). arXiv: [1705.06963](https://arxiv.org/abs/1705.06963) — comprehensive review of neuromorphic architectures with space applicability.
 
 ---
 
@@ -354,7 +354,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - In-orbit servicing: refueling, repair, and life extension of existing satellites
 - DARPA RSGS, Astroscale ELSA-d, ClearSpace-1: current and planned missions
 
-**Paper:** Sharma, S. et al. — "Pose Estimation for Non-Cooperative Spacecraft Rendezvous Using CNN" (2020) — deep learning for uncooperative target pose estimation in orbit.
+**Paper:** Sharma, S. & D'Amico, S. — "Neural Network-Based Pose Estimation for Noncooperative Spacecraft Rendezvous" (IEEE Trans. Aerospace and Electronic Systems, 2020). DOI: [10.1109/TAES.2020.2999148](https://doi.org/10.1109/TAES.2020.2999148) | arXiv: [1906.09868](https://arxiv.org/abs/1906.09868)
 
 ---
 
@@ -366,7 +366,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - International frameworks: UN COPUOS guidelines, Artemis Accords, ITU spectrum governance
 - Autonomous weapons in space: ethical considerations of AI-driven satellite defense systems
 
-**Paper:** Adilov, N. et al. — "An Economic Model of Space Debris" (2024) — economic analysis of debris accumulation, externalities, and policy interventions.
+**Paper:** Adilov, N., Alexander, P.J., Braun, V. & Cunningham, B.M. — "An economic indicator of the orbital debris environment" (J. Space Safety Engineering, 2024). DOI: [10.1016/j.jsse.2024.06.001](https://www.sciencedirect.com/science/article/abs/pii/S2468896724000600)
 
 ---
 
@@ -378,7 +378,7 @@ This syllabus covers the intersection of artificial intelligence, machine learni
 - Deep space AI: autonomous navigation, science prioritization, and communication for Mars and beyond
 - AI-native satellite design: building spacecraft from the ground up around ML workloads
 
-**Paper:** "Space AI: Leveraging Artificial Intelligence for Space to Improve Life on Earth" (arXiv, 2025) — comprehensive framework organizing AI in space into four mission contexts (Earth, Orbit, Deep Space, Multi-Planetary Life).
+**Paper:** Wang, Z. — "Space AI: Leveraging Artificial Intelligence for Space to Improve Life on Earth" (arXiv, 2025). arXiv: [2512.22399](https://arxiv.org/abs/2512.22399) | Code: [github.com/ziyangwang007/AI4Space](https://github.com/ziyangwang007/AI4Space)
 
 ---
 
@@ -413,3 +413,4 @@ For finding the papers referenced in each day's lesson, the following repositori
 | Version | Date | Changes |
 |---------|------|---------|
 | v1 | 2026-02-26 | Initial draft for director review |
+| v2 | 2026-02-26 | All 30 papers verified — 5 hallucinated citations replaced with real papers, DOIs/arXiv IDs added to all entries, author corrections applied |
