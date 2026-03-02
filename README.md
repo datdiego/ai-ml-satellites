@@ -20,3 +20,7 @@ See `syllabus.md` for the full 30-day curriculum.
 ## Part of MakeMeAnExpert
 
 This is a subject repository for the [MakeMeAnExpert](https://github.com/datdiego/makemeaexpert) project — a daily email learning system that turns you into an expert on any topic in 30 days.
+
+## Lessons
+
+- [Day 1: How Satellites Communicate](lessons/day-01.md)
