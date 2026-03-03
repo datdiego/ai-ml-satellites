@@ -25,3 +25,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 
 - [Day 1: How Satellites Communicate](lessons/day-01.md)
 - [Day 2: Orbital Mechanics for the AI Engineer](lessons/day-02.md)
+- [Day 3: Satellite Hardware and Onboard Computing](lessons/day-03.md)
