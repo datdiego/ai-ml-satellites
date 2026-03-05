@@ -27,3 +27,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 2: Orbital Mechanics for the AI Engineer](lessons/day-02.md)
 - [Day 3: Satellite Hardware and Onboard Computing](lessons/day-03.md)
 - [Day 4: Introduction to Earth Observation and Remote Sensing](lessons/day-04.md)
+- [Day 5: Machine Learning Fundamentals for Satellite Data](lessons/day-05.md)
