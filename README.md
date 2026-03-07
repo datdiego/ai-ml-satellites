@@ -29,3 +29,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 4: Introduction to Earth Observation and Remote Sensing](lessons/day-04.md)
 - [Day 5: Machine Learning Fundamentals for Satellite Data](lessons/day-05.md)
 - [Day 6: Satellite Image Classification with Deep Learning](lessons/day-06.md)
+- [Day 7: Introduction to Synthetic Aperture Radar (SAR)](lessons/day-07.md)
