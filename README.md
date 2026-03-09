@@ -31,3 +31,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 6: Satellite Image Classification with Deep Learning](lessons/day-06.md)
 - [Day 7: Introduction to Synthetic Aperture Radar (SAR)](lessons/day-07.md)
 - [Day 8: Signal Processing and Anomaly Detection in Satellite Systems](lessons/day-08.md)
+- [Day 9: Satellite Constellation Basics and Network Topology](lessons/day-09.md)
