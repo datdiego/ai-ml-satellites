@@ -33,3 +33,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 8: Signal Processing and Anomaly Detection in Satellite Systems](lessons/day-08.md)
 - [Day 9: Satellite Constellation Basics and Network Topology](lessons/day-09.md)
 - [Day 10: Defense vs. Commercial Satellite Systems](lessons/day-10.md)
+- [Day 12: Deep Learning for SAR Image Analysis](lessons/day-12.md)
