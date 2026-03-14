@@ -35,3 +35,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 10: Defense vs. Commercial Satellite Systems](lessons/day-10.md)
 - [Day 12: Deep Learning for SAR Image Analysis](lessons/day-12.md)
 - [Day 13: Edge AI and Onboard Satellite Processing](lessons/day-13.md)
+- [Day 14: Space Debris Tracking and Collision Avoidance](lessons/day-14.md)
