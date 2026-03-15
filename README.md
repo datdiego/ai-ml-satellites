@@ -36,3 +36,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 12: Deep Learning for SAR Image Analysis](lessons/day-12.md)
 - [Day 13: Edge AI and Onboard Satellite Processing](lessons/day-13.md)
 - [Day 14: Space Debris Tracking and Collision Avoidance](lessons/day-14.md)
+- [Day 15: Autonomous Satellite Operations](lessons/day-15.md)
