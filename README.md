@@ -38,3 +38,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 14: Space Debris Tracking and Collision Avoidance](lessons/day-14.md)
 - [Day 15: Autonomous Satellite Operations](lessons/day-15.md)
 - [Day 16: AI for Satellite Constellation Management](lessons/day-16.md)
+- [Day 17: Space Weather Prediction with Machine Learning](lessons/day-17.md)
