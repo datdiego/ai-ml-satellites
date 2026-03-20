@@ -41,3 +41,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 17: Space Weather Prediction with Machine Learning](lessons/day-17.md)
 - [Day 18: Optical and Laser Inter-Satellite Links](lessons/day-18.md)
 - [Day 19: Object Detection and Change Detection from Space](lessons/day-19.md)
+- [Day 20: Multi-Temporal and Time-Series Satellite Analysis](lessons/day-20.md)
