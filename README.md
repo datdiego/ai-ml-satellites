@@ -45,3 +45,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 21: Foundation Models for Earth Observation](lessons/day-21.md)
 - [Day 24: Generative AI and Synthetic Data for Space Applications](lessons/day-24.md)
 - [Day 25: Quantum Communications in Space](lessons/day-25.md)
+- [Day 26: AI-Powered Mega-Constellations and Space-Based Computing](lessons/day-26.md)
