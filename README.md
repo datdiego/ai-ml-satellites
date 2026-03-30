@@ -49,3 +49,4 @@ This is a subject repository for the [MakeMeAnExpert](https://github.com/datdieg
 - [Day 27: Neuromorphic Computing and Novel Architectures for Space](lessons/day-27.md)
 - [Day 28: AI for Active Debris Removal and In-Orbit Servicing](lessons/day-28.md)
 - [Day 29: Responsible AI and Governance in Space Systems](lessons/day-29.md)
+- [Day 30: The Future — 2030 and Beyond](lessons/day-30.md)
